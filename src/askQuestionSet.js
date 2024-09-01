@@ -8,3 +8,5 @@ function askQuestionSet(){
          - Age: ${age}
     `)
 }
+
+export default askQuestionSet;
