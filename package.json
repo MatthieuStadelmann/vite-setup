@@ -15,6 +15,9 @@
     "lint": "eslint . && prettier --write . ",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": "npm run lint"
+  },
   "author": "theSeniorDev - all rights reserved",
   "license": "ISC",
   "devDependencies": {
