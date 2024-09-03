@@ -6,7 +6,7 @@ import eslint from "vite-plugin-eslint";
 export default defineConfig({
   plugins: [
     legacy({
-      targets: ["defaults", "IE 11"],
+      targets: ["defaults"],
     }),
     react(),
     eslint(),
